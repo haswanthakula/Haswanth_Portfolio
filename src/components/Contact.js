@@ -18,7 +18,7 @@ const Contact = () => {
       .then(
         () => {
           // Success toast notification
-          toast.success("Order submitted successfully!", {
+          toast.success("Submitted successfully!", {
             position: "top-right",
             autoClose: 3000, // Toast will auto-close after 3 seconds
           });

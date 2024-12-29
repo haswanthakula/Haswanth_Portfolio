@@ -1,0 +1,210 @@
+#Education {
+    width: 100vw;
+    margin: 40px auto;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .heading span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 4rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+  
+  .line {
+    margin-left: 25rem;
+    position: relative;
+    padding: 15px 0;
+  }
+  
+  .line::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #000;
+  }
+  
+  .item {
+    width: 100rem;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateX(10px);
+    background: rgba(0, 0, 0, 0.02);
+  }
+  
+  .icon {
+    width: 58px;
+    height: 58px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+    margin: 0 15px;
+  }
+  
+  .item:hover .icon {
+    background: #000;
+    color: white;
+    transform: rotate(360deg);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item:hover .icon i {
+    color: white;
+  }
+  
+  .content1 {
+    flex-grow: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-left: 15px;
+    border: 2px solid #e5e7eb;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: visible;
+  }
+  
+  .item:hover .content1 {
+    border-color: #000;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .degree {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .item:hover .degree {
+    transform: translateX(5px);
+  }
+  
+  .school {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .year {
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 15px;
+    background: #f5f5f5;
+    border: 1px solid #000;
+  }
+  
+  .item:hover .year {
+    background: #000;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .cgpa {
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 15px;
+    background: #f5f5f5;
+    border: 1px solid #000;
+  }
+  
+  .item:hover .cgpa {
+    background: #000;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    #Education {
+      padding: 15px;
+    }
+  
+    .content1 {
+      margin-left: 12px;
+      padding: 15px 20px;
+    }
+  
+    .icon {
+      width: 48px;
+      height: 48px;
+      font-size: 20px;
+      margin: 0 12px;
+    }
+  
+    .line {
+      margin-left: 0rem;
+    }
+  
+    .item {
+      width: 30rem;
+    }
+  
+    .degree {
+      font-size: 1.2rem;
+    }
+  
+    .school {
+      font-size: 1rem;
+    }
+  
+    .year {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .item {
+    animation: slideInRight 0.6s ease forwards;
+    opacity: 0;
+  }
+  
+  .item:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .item:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .item:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  

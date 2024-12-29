@@ -1,0 +1,202 @@
+.about {
+    background: rgb(255, 255, 255);
+    height: 90vh;
+  }
+  
+  .about .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+  }
+  
+  .heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    font-size: 4.5rem;
+    gap: 10px;
+  }
+  
+  .heading1 span {
+    color: #587f86;
+  }
+  
+  .about .row .image {
+    text-align: center;
+    flex: 1 1 30rem;
+    margin-left: 3rem;
+    margin-top: -2rem;
+  }
+  
+  .about .row .image img {
+    margin: 4rem;
+    width: 30rem;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .about .row .image img:hover {
+    scale: 1.02;
+  }
+  
+  .about .row .content {
+    flex: 1 1 45rem;
+    padding: 3rem;
+    margin-top: -2rem;
+    margin-left: -8rem;
+  }
+  
+  .about .row .content h3 {
+    color: rgb(27, 27, 27);
+    font-size: 2.8rem;
+  }
+  
+  .about .row .content .tag {
+    font-size: 1.5rem;
+    color: #020133;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .about .row .content p {
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+    width: 70rem;
+    text-transform: none;
+  }
+  
+  .about .row .content .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-family: "Nunito";
+    font-weight: 600;
+  }
+  
+  .about .row .content .box-container .box p {
+    text-transform: none;
+  }
+  
+  .about .row .content .box-container .box p span {
+    color: #011aff;
+  }
+  
+  .resumebtn {
+    margin-top: 4rem;
+  }
+  
+  .resumebtn .btn {
+    padding: 1.7rem 3rem;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: #fff;
+    background: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .resumebtn .btn span {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .resumebtn .btn i {
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    transition: 0.3s;
+  }
+  
+  .resumebtn .btn:hover {
+    background: orangered;
+  }
+  
+  .resumebtn .btn:hover i {
+    transform: translateX(5px);
+  }
+  
+  #skills {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 50rem;
+    height: 10rem;
+  }
+  
+  .skill_head {
+    margin-top: 3rem;
+    margin-bottom: -1.5rem;
+  }
+  
+  #skills div img {
+    border-radius: 10px;
+  }
+  
+  #skills div {
+    width: 80px;
+    height: 80px;
+  }
+  
+  #skills img:hover {
+    scale: 1.03;
+  }
+  
+  #skills figcaption {
+    font-size: 15px;
+  }
+  
+  .about.animate .row {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* about media queries starts */
+  @media screen and (max-width: 410px) {
+    .about {
+      height: 150vh;
+    }
+    
+    .about .row .image {
+      margin-top: 2rem;
+    }
+  
+    .about .row .image img {
+      margin: 0 auto;
+      width: 100%;
+      margin-bottom: 3rem;
+      mix-blend-mode: normal;
+    }
+  
+    .about .row .content p {
+      width: 30rem;
+    }
+  
+    .about .row {
+      margin-left: 10rem;
+      width: 15rem;
+      padding: 0.5rem;
+      margin-bottom: 7rem;
+    }
+  
+    .about .row .content {
+      font-size: 20px;
+      padding: 2rem;
+      text-align: justify;
+    }
+  
+    .about .row .content .box-container {
+      gap: 0;
+    }
+  }
+  

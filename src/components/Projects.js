@@ -11,9 +11,7 @@ const ProjectCard = ({ imgSrc, title, description }) => (
     <img src={imgSrc} alt={title} className="project-image" />
     <div className="project-content">
       <h3 className="project-title">{title}</h3>
-      <p className="project-description">{description}</p>
-      <a href="" className="project-button">View Project</a> {/* View Project Button */}
-    </div>
+      <p className="project-description">{description}</p>    </div>
   </div>
 );
 

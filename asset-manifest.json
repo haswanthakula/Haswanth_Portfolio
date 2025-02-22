@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Haswanth_Portfolio/static/css/main.8c108557.css",
+    "main.js": "/Haswanth_Portfolio/static/js/main.b48187d2.js",
+    "static/js/453.248b6789.chunk.js": "/Haswanth_Portfolio/static/js/453.248b6789.chunk.js",
+    "static/media/rea.png": "/Haswanth_Portfolio/static/media/rea.886443d3b8c793475f3d.png",
+    "static/media/mar.webp": "/Haswanth_Portfolio/static/media/mar.ca013f99faeded80b92e.webp",
+    "static/media/fa-solid-900.ttf": "/Haswanth_Portfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/epc.jpg": "/Haswanth_Portfolio/static/media/epc.5c8f7f868657551d7695.jpg",
+    "static/media/awsc.jpg": "/Haswanth_Portfolio/static/media/awsc.043714196c181cf25461.jpg",
+    "static/media/fro.webp": "/Haswanth_Portfolio/static/media/fro.d0fc587052ff08f2f7a4.webp",
+    "static/media/aws.webp": "/Haswanth_Portfolio/static/media/aws.b36289fe748245f1c701.webp",
+    "static/media/lic.jpg": "/Haswanth_Portfolio/static/media/lic.9032b871fcca3c14e2cf.jpg",
+    "static/media/jac.jpg": "/Haswanth_Portfolio/static/media/jac.0c8afd1562412c508e7f.jpg",
+    "static/media/fa-brands-400.ttf": "/Haswanth_Portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/bootstrap-icons.woff?": "/Haswanth_Portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/fa-solid-900.woff2": "/Haswanth_Portfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/bootstrap-icons.woff2?": "/Haswanth_Portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/container2_background.jpg": "/Haswanth_Portfolio/static/media/container2_background.ddf61fa14a1040e26481.jpg",
+    "static/media/fa-brands-400.woff2": "/Haswanth_Portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/pyc.png": "/Haswanth_Portfolio/static/media/pyc.b2fbd4b8da8d778d0253.png",
+    "static/media/contact1.png": "/Haswanth_Portfolio/static/media/contact1.fae87f0b7ed654821997.png",
+    "static/media/fa-regular-400.ttf": "/Haswanth_Portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/f3.png": "/Haswanth_Portfolio/static/media/f3.2ff4833af53090f88173.png",
+    "static/media/Haswanth_Akula.pdf": "/Haswanth_Portfolio/static/media/Haswanth_Akula.f59ea273a57e85c869b5.pdf",
+    "static/media/fa-regular-400.woff2": "/Haswanth_Portfolio/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/devops logo": "/Haswanth_Portfolio/static/media/devops logo.66e8f31a0b4b108103dd",
+    "static/media/h.jpeg": "/Haswanth_Portfolio/static/media/h.0936edd63676da591c2d.jpeg",
+    "static/media/aws logo": "/Haswanth_Portfolio/static/media/aws logo.6bf86e4e59de6c73fa36",
+    "static/media/fa-v4compatibility.ttf": "/Haswanth_Portfolio/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/logo.svg": "/Haswanth_Portfolio/static/media/logo.469a7a05db3e2dc7864ddc62deb6679e.svg",
+    "static/media/python logo": "/Haswanth_Portfolio/static/media/python logo.a2d3372040cfe7ba37d4",
+    "static/media/fa-v4compatibility.woff2": "/Haswanth_Portfolio/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/Haswanth_Portfolio/index.html",
+    "main.8c108557.css.map": "/Haswanth_Portfolio/static/css/main.8c108557.css.map",
+    "main.b48187d2.js.map": "/Haswanth_Portfolio/static/js/main.b48187d2.js.map",
+    "453.248b6789.chunk.js.map": "/Haswanth_Portfolio/static/js/453.248b6789.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c108557.css",
+    "static/js/main.b48187d2.js"
+  ]
+}
